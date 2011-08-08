@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<FrameLayout
+		android:id="@+id/FLTabContent"
+		android:layout_weight="1"
+		android:layout_width="0dp"
+		android:layout_height="match_parent" >
+		<fragment
+			class="com.doomonafireball.fragmentdemo.ListViewFragment"
+			android:id="@+id/FRAGListView"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent" />
+	</FrameLayout>
+	<FrameLayout
+		android:id="@+id/FLDetailView"
+		android:layout_weight="1"
+		android:layout_width="0dp"
+		android:layout_height="match_parent" />
+</LinearLayout>

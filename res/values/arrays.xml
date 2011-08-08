@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="demo_data">
+    	<item>Test Item 1</item>
+    	<item>Test Item 2</item>
+    	<item>Test Item 3</item>
+    	<item>Test Item 4</item>
+    	<item>Test Item 5</item>
+    	<item>Test Item 6</item>
+    	<item>Test Item 7</item>
+    	<item>Test Item 8</item>
+    	<item>Test Item 9</item>
+    	<item>Test Item 10</item>
+    	<item>Test Item 11</item>
+    	<item>Test Item 12</item>
+    	<item>Test Item 13</item>
+    	<item>Test Item 14</item>
+    	<item>Test Item 15</item>
+    	<item>Test Item 16</item>
+    	<item>Test Item 17</item>
+    	<item>Test Item 18</item>
+    	<item>Test Item 19</item>
+    	<item>Test Item 20</item>    
+    </string-array>    
+</resources>
