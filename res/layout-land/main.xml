@@ -9,11 +9,12 @@
 		android:layout_weight="1"
 		android:layout_width="0dp"
 		android:layout_height="match_parent" >
+		<!-- 
 		<fragment
 			class="com.doomonafireball.fragmentdemo.ListViewFragment"
 			android:id="@+id/FRAGListView"
 			android:layout_width="match_parent"
-			android:layout_height="match_parent" />
+			android:layout_height="match_parent" /> -->
 	</FrameLayout>
 	<FrameLayout
 		android:id="@+id/FLDetailView"

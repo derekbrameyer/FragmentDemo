@@ -10,7 +10,7 @@ import android.widget.ScrollView;
 import android.widget.TextView;
 
 public class DetailViewFragment extends Fragment {
-	
+
 	public static DetailViewFragment newInstance(int index) {
 		// Create a new instance of DetailViewFragment
 		// initialized to show the text at 'index'
@@ -26,6 +26,10 @@ public class DetailViewFragment extends Fragment {
 
 	public int getShownIndex() {
 		return getArguments().getInt("index", 0);
+	}
+
+	public int getShownRace() {
+		return getArguments().getInt("race", 0);
 	}
 
 	@Override
@@ -44,8 +48,28 @@ public class DetailViewFragment extends Fragment {
 						.getDisplayMetrics());
 		text.setPadding(padding, padding, padding, padding);
 		scroller.addView(text);
-		text.setText(getActivity().getResources().getStringArray(
-				R.array.demo_data)[getShownIndex()]);
+		switch (getShownRace()) {
+		case 0:
+			// toss
+			text.setText(getActivity().getResources().getStringArray(
+					R.array.protoss_demo_data)[getShownIndex()]);
+			break;
+		case 1:
+			// terran
+			text.setText(getActivity().getResources().getStringArray(
+					R.array.terran_demo_data)[getShownIndex()]);
+			break;
+		case 2:
+			// zerg
+			text.setText(getActivity().getResources().getStringArray(
+					R.array.zerg_demo_data)[getShownIndex()]);
+			break;
+		default:
+			// toss
+			text.setText(getActivity().getResources().getStringArray(
+					R.array.protoss_demo_data)[getShownIndex()]);
+			break;
+		}
 
 		return scroller;
 	}

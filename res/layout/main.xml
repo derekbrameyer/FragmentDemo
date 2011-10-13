@@ -7,10 +7,11 @@
 		android:id="@+id/FLTabContent"
 		android:layout_width="match_parent"
 		android:layout_height="match_parent">
+		<!--
 		<fragment
 			class="com.doomonafireball.fragmentdemo.ListViewFragment"
 			android:id="@+id/FRAGListView"
 			android:layout_width="match_parent"
-			android:layout_height="match_parent" />
+			android:layout_height="match_parent" /> -->
 	</FrameLayout>
 </FrameLayout>

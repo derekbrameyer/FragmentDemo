@@ -1,25 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="demo_data">
-    	<item>Test Item 1</item>
-    	<item>Test Item 2</item>
-    	<item>Test Item 3</item>
-    	<item>Test Item 4</item>
-    	<item>Test Item 5</item>
-    	<item>Test Item 6</item>
-    	<item>Test Item 7</item>
-    	<item>Test Item 8</item>
-    	<item>Test Item 9</item>
-    	<item>Test Item 10</item>
-    	<item>Test Item 11</item>
-    	<item>Test Item 12</item>
-    	<item>Test Item 13</item>
-    	<item>Test Item 14</item>
-    	<item>Test Item 15</item>
-    	<item>Test Item 16</item>
-    	<item>Test Item 17</item>
-    	<item>Test Item 18</item>
-    	<item>Test Item 19</item>
-    	<item>Test Item 20</item>    
+    <string-array name="protoss_demo_data">
+    	<item>Protoss Item 1</item>
+    	<item>Protoss Item 2</item>
+    	<item>Protoss Item 3</item>
+    	<item>Protoss Item 4</item>
+    	<item>Protoss Item 5</item>
+    	<item>Protoss Item 6</item>
+    	<item>Protoss Item 7</item>
+    	<item>Protoss Item 8</item>
+    	<item>Protoss Item 9</item>
+    	<item>Protoss Item 10</item>
+    	<item>Protoss Item 11</item>
+    	<item>Protoss Item 12</item>
+    	<item>Protoss Item 13</item>
+    	<item>Protoss Item 14</item>
+    	<item>Protoss Item 15</item>
+    	<item>Protoss Item 16</item>
+    	<item>Protoss Item 17</item>
+    	<item>Protoss Item 18</item>
+    	<item>Protoss Item 19</item>
+    	<item>Protoss Item 20</item>    
     </string-array>    
+    <string-array name="terran_demo_data">
+    	<item>Terran Item 1</item>
+    	<item>Terran Item 2</item>
+    	<item>Terran Item 3</item>
+    	<item>Terran Item 4</item>
+    	<item>Terran Item 5</item>
+    	<item>Terran Item 6</item>
+    	<item>Terran Item 7</item>
+    	<item>Terran Item 8</item>
+    	<item>Terran Item 9</item>
+    	<item>Terran Item 10</item>
+    	<item>Terran Item 11</item>
+    	<item>Terran Item 12</item>
+    	<item>Terran Item 13</item>
+    	<item>Terran Item 14</item>
+    	<item>Terran Item 15</item>
+    	<item>Terran Item 16</item>
+    	<item>Terran Item 17</item>
+    	<item>Terran Item 18</item>
+    	<item>Terran Item 19</item>
+    	<item>Terran Item 20</item>    
+    </string-array>  
+    <string-array name="zerg_demo_data">
+    	<item>Zerg Item 1</item>
+    	<item>Zerg Item 2</item>
+    	<item>Zerg Item 3</item>
+    	<item>Zerg Item 4</item>
+    	<item>Zerg Item 5</item>
+    	<item>Zerg Item 6</item>
+    	<item>Zerg Item 7</item>
+    	<item>Zerg Item 8</item>
+    	<item>Zerg Item 9</item>
+    	<item>Zerg Item 10</item>
+    	<item>Zerg Item 11</item>
+    	<item>Zerg Item 12</item>
+    	<item>Zerg Item 13</item>
+    	<item>Zerg Item 14</item>
+    	<item>Zerg Item 15</item>
+    	<item>Zerg Item 16</item>
+    	<item>Zerg Item 17</item>
+    	<item>Zerg Item 18</item>
+    	<item>Zerg Item 19</item>
+    	<item>Zerg Item 20</item>    
+    </string-array>  
 </resources>
